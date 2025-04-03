@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '@/assets/imscovo.jpg'
+import template1 from '@/assets/Templates.webp'
 const page = () => {
   return (
    
@@ -15,6 +16,8 @@ const page = () => {
           <li>Navigate to the 'Templates' section.</li>
           <li>Click on the plus “+” icon to open the new template configuration panel.</li>
         </ul>
+<img className=" lg:ml-32" src={template1} alt=""  width={600} />
+        
         
         <h3 className="text-lg font-medium mb-2 text-green-500">2. Define Template Details</h3>
         <ul className="list-disc pl-5 mb-4">
